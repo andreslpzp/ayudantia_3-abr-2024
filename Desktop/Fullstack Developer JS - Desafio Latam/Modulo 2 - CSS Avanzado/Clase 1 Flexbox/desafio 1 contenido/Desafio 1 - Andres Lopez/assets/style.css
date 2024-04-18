@@ -1,0 +1,143 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+/* NAV BAR */
+nav {
+    display: flex;
+    background: #FFF;
+    padding: 1rem 2rem;
+    width: 15%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 1rem;
+}
+/* NAV BAR END */
+
+ /* PROFILE */
+.profile{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+    border: 1px solid #BEC1BB;
+}
+
+.profile_img{
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-bottom: 2rem;
+}
+
+.profile_info{
+    width: 40%;
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+}
+
+.icon{
+    display: flex;
+    font-size: 10px;
+    width: 10%;
+    text-align: center;
+}
+/* PROFILE END*/
+
+/* NEW CHAT */
+.new_chat{
+    border: 1px solid #BEC1BB;
+    width: 250%;
+    padding: 15px;
+}
+
+.new_chat_text{
+    background-color: #A491D2;
+    color: #FFF;
+    border: 0.5px solid #BEC1BB;
+    margin: 5px;
+    padding: 5px;
+    font-size: 5px;
+    text-align: center;
+}
+
+/* NEW CHAT END*/
+
+/* CHAT BOX */
+.box {
+    display: flex;
+    height: 12.5%;
+    width: fit-content;
+    border: 1px solid #BEC1BB;
+    flex-direction: row;
+}
+
+.box img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-bottom: 2rem;
+}
+
+.box box_name{
+    font-size: small;
+}
+
+.box box_message{
+    font-size: x-small;
+}
+
+/* CHAT BOX END*/
+
+/* HERO SECTION */
+section{
+    width:85%;
+    padding: 3rem;
+}
+
+.hero{
+    background-color:#E8EBE4;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chat_area img{
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+
+.chat_area h2{
+    text-align: center;
+}
+
+.chat_area p{
+    font-size: small;
+    width: 75%;
+}
+/* HERO SECTION END*/
